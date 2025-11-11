@@ -1,4 +1,4 @@
-package net.dach;
+package net.dach.StrategyPattern;
 
 
 import java.util.HashMap;
@@ -17,7 +17,7 @@ public class Main {
            strategy=strategyMap.get(str);
            if (strategy == null) {
                System.out.println("Creation d'un nouvel objet de StrategyImpl" + str);
-               strategy = (Strategy) Class.forName("net.dach.StrategyImpl" + str).getConstructor().newInstance();
+               strategy = (Strategy) Class.forName("net.dach.StrategyPattern.StrategyImpl" + str).getConstructor().newInstance();
                strategyMap.put(str, strategy);
            }
            context.setStrategy(strategy);

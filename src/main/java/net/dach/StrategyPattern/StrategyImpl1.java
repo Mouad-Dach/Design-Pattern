@@ -1,4 +1,4 @@
-package net.dach;
+package net.dach.StrategyPattern;
 
 public class StrategyImpl1 implements Strategy {
     @Override
