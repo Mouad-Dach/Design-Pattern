@@ -1,7 +1,6 @@
 package net.dach.ObserverPattern.obs;
 
 import java.awt.*;
-import java.awt.event.ActionListener;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,10 +13,10 @@ public class Main {
             @Override
             public void update(Observable o) {
                 if(o instanceof ObservableImpl observable){
-                System.out.println("+++++++++ OBS Impl 3 +++++++++");
-                System.out.println("Res ="+ ((ObservableImpl) o).getState() * Math.cos(((ObservableImpl) o).getState()));
+                    System.out.println("+++++++++ OBS Impl 3 +++++++++");
+                    System.out.println("Res ="+ ((ObservableImpl) o).getState() * Math.cos(((ObservableImpl) o).getState()));
 
-            }
+                }
             }
 
         });
@@ -29,7 +28,7 @@ public class Main {
 
         Button button = new Button("OK");
         button.addActionListener(e ->{
-                System.out.println(e.getSource());
+            System.out.println(e.getSource());
         });
     }
 }
