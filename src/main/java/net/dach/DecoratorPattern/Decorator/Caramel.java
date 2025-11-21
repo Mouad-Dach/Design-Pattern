@@ -1,6 +1,6 @@
-package net.dach.PatternDecorator.Decorator;
+package net.dach.DecoratorPattern.Decorator;
 
-import net.dach.PatternDecorator.Composants.Boisson;
+import net.dach.DecoratorPattern.Composants.Boisson;
 
 public class Caramel extends Decorator {
     public Caramel(Boisson boisson) {

@@ -1,13 +1,10 @@
-package net.dach.PatternDecorator;
+package net.dach.DecoratorPattern;
 
-import net.dach.PatternDecorator.Composants.Boisson;
-import net.dach.PatternDecorator.Composants.Espresso;
-import net.dach.PatternDecorator.Composants.Sumatra;
-import net.dach.PatternDecorator.Decorator.Caramel;
-import net.dach.PatternDecorator.Decorator.Chocolat;
-import net.dach.PatternDecorator.Decorator.Noisette;
-
-import java.io.BufferedReader;
+import net.dach.DecoratorPattern.Composants.Boisson;
+import net.dach.DecoratorPattern.Composants.Sumatra;
+import net.dach.DecoratorPattern.Decorator.Caramel;
+import net.dach.DecoratorPattern.Decorator.Chocolat;
+import net.dach.DecoratorPattern.Decorator.Noisette;
 
 public class Main {
     public static void main(String[] args) {

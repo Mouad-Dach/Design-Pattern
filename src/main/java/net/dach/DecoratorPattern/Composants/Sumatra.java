@@ -1,4 +1,4 @@
-package net.dach.PatternDecorator.Composants;
+package net.dach.DecoratorPattern.Composants;
 
 public class Sumatra extends Boisson {
     public Sumatra() {

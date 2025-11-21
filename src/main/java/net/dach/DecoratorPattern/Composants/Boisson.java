@@ -1,4 +1,4 @@
-package net.dach.PatternDecorator.Composants;
+package net.dach.DecoratorPattern.Composants;
 
 public abstract class Boisson {
     protected String description;
