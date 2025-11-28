@@ -7,19 +7,15 @@
 ---
 
 ## 📂 Project Structure
-Below are direct links to each design pattern implementation.
 
-### ➤ Adapter Pattern
-https://github.com/Mouad-Dach/Design-Pattern/tree/main/src/main/java/net/dach/AdapterPattern
+### ➤ [Adapter Pattern](https://github.com/Mouad-Dach/Design-Pattern/tree/main/src/main/java/net/dach/AdapterPattern)
 
-### ➤ Composite Pattern
-https://github.com/Mouad-Dach/Design-Pattern/tree/main/src/main/java/net/dach/CompositePattern
+### ➤ [Composite Pattern](https://github.com/Mouad-Dach/Design-Pattern/tree/main/src/main/java/net/dach/CompositePattern)
 
-### ➤ Decorator Pattern
-https://github.com/Mouad-Dach/Design-Pattern/tree/main/src/main/java/net/dach/DecoratorPattern
+### ➤ [Decorator Pattern](https://github.com/Mouad-Dach/Design-Pattern/tree/main/src/main/java/net/dach/DecoratorPattern)
 
-### ➤ Observer Pattern
-https://github.com/Mouad-Dach/Design-Pattern/tree/main/src/main/java/net/dach/ObserverPattern
+### ➤ [Observer Pattern](https://github.com/Mouad-Dach/Design-Pattern/tree/main/src/main/java/net/dach/ObserverPattern)
 
-### ➤ Strategy Pattern
-https://github.com/Mouad-Dach/Design-Pattern/tree/main/src/main/java/net/dach/StrategyPattern
+### ➤ [Strategy Pattern](https://github.com/Mouad-Dach/Design-Pattern/tree/main/src/main/java/net/dach/StrategyPattern)
+
+---
